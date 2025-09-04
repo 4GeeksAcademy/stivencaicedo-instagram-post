@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+}
+
+.post {
+    background-color: white;
+    width: 400px;
+    margin: auto;
+}
+
+i {
+    font-size: 40px;
+}
+
+.post-header, .post-body-icons {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.post-header-left {
+    display: flex;
+}
+
+.post-author {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.post-image img {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.post-body p {
+    margin: 10px;
+    padding-bottom: 10px;
+}
